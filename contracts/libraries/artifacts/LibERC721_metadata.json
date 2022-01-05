@@ -1,0 +1,140 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_approved",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "_tokenId",
+						"type": "uint256"
+					}
+				],
+				"name": "Approval",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_operator",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "bool",
+						"name": "_approved",
+						"type": "bool"
+					}
+				],
+				"name": "ApprovalForAll",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "_tokenId",
+						"type": "uint256"
+					}
+				],
+				"name": "Transfer",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"events": {
+				"Approval(address,address,uint256)": {
+					"details": "This emits when the approved address for an NFT is changed or  reaffirmed. The zero address indicates there is no approved address.  When a Transfer event emits, this also indicates that the approved  address for that NFT (if any) is reset to none."
+				},
+				"ApprovalForAll(address,address,bool)": {
+					"details": "This emits when an operator is enabled or disabled for an owner.  The operator can manage all NFTs of the owner."
+				},
+				"Transfer(address,address,uint256)": {
+					"details": "This emits when ownership of any NFT changes by any mechanism.  This event emits when NFTs are created (`from` == 0) and destroyed  (`to` == 0). Exception: during contract creation, any number of NFTs  may be created and assigned without emitting Transfer. At the time of  any transfer, the approved address for that NFT (if any) is reset to none."
+				}
+			},
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity Development/SQNetDiamond/Contracts/libraries/LibERC721.sol": "LibERC721"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity Development/SQNetDiamond/Contracts/interfaces/IERC721TokenReceiver.sol": {
+			"keccak256": "0x53f58a66ed3955c0a9f81ef7a5c3df085ccecc174373dc9925813a45864638a6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e48aff0ebce91e7fdaecf3725ce3bc5ef5b10caef5322b016896053fe0621717",
+				"dweb:/ipfs/QmZM9vmJZ5CGe32jqc7BsCJfxji5FPFSCTcDGFmTGs9C51"
+			]
+		},
+		"Solidity Development/SQNetDiamond/Contracts/libraries/LibERC721.sol": {
+			"keccak256": "0x300d8cfc4c507cbca536381f6e1d8987853dc665df56e086793f7dd92525564d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0665f2c134c1fe4aa492222628565add4193a63961ea48f2cd1945321af7f560",
+				"dweb:/ipfs/Qmb7TJC3sqCNx55JecUBCGTzamFk8imwbiB6ttvZFW9iqe"
+			]
+		}
+	},
+	"version": 1
+}

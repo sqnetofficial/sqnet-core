@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "init",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity Development/SQNetDiamond/Contracts/initializers/DiamondInit.sol": "DiamondInit"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity Development/SQNetDiamond/Contracts/initializers/DiamondInit.sol": {
+			"keccak256": "0xc10f4a62efa26bfbe1c70b21e38d2742deaad26c585f4aad66d84234b1280784",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ad8a7e17b858066f30dece45e174000a6f52073c989e0b9729f59f805de1233d",
+				"dweb:/ipfs/QmPR6foXNZAKhGWGZzznhRRywVR9v8RFBo4sXt2NaCPoUb"
+			]
+		},
+		"Solidity Development/SQNetDiamond/Contracts/interfaces/IDiamondCut.sol": {
+			"keccak256": "0x7e616d2dfda1b5c03b2de7efbc0e2c6ac472dbba1a60adbd1ca71a183b413254",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f5924cddc69e143213c2799547cdfdc8458b3c35d4ba68012785b792b90c522d",
+				"dweb:/ipfs/QmfPSzx6JpzNodAvAqgjtJzBaKWEmRY86MMJ2Bo48Wz2Hz"
+			]
+		},
+		"Solidity Development/SQNetDiamond/Contracts/interfaces/IDiamondLoupe.sol": {
+			"keccak256": "0x9e87afb355b7bfcafcc235e8eafaaf2c659e4516f8ed614495c9e4cabd1e5a37",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://38b2a5540472121105986ae5aea4228e695255d2f2d1ef09728e8d56fdf19b38",
+				"dweb:/ipfs/QmS4Bzpo3wvnqJJN7QhXRHKgu3SKZvxsAz72dtijfgJriD"
+			]
+		},
+		"Solidity Development/SQNetDiamond/Contracts/interfaces/IERC165.sol": {
+			"keccak256": "0xb13213c954303fb6d1ba5e126b946c4cd5bd04f97924eedd5b2e73878b7b00e5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0973066057763f01290a84c94b163315d894229d43ee87aa5fcc7906ef9dbcf7",
+				"dweb:/ipfs/Qmdv9xvbrW1PZLnCcP4bautUmQAuKtgURJtNoPm6CndHvP"
+			]
+		},
+		"Solidity Development/SQNetDiamond/Contracts/interfaces/IERC173.sol": {
+			"keccak256": "0x11d2a117e57d3a19b6529c3f0a09bea58ec7482b55a4e93d0161166fa0736343",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e3127b0386bd23eb05dfd5435953f72e607efdd62c3dca7b43b9a489b316e86c",
+				"dweb:/ipfs/Qmeukrvmt2tLbQPb1T6tsfDWutZ2ro1Z5ERpY51JjfHVzG"
+			]
+		},
+		"Solidity Development/SQNetDiamond/Contracts/libraries/LibDiamond.sol": {
+			"keccak256": "0x8db15cb3a0cff7a1c05b343eae514eff62e49db9c8f53cce0402e213a733112f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f52578301b2d15edd50b80e16898fb7238d816bda4b3a5cb203c0332638aa633",
+				"dweb:/ipfs/QmaUcRq8j9rQ1owdLEtugL8onT4dzxK5BkzgZWuQ3TF6e2"
+			]
+		}
+	},
+	"version": 1
+}

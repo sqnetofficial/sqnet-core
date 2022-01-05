@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity Development/SQNetDiamond/Contracts/libraries/LibERC20.sol": "LibERC20"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity Development/SQNetDiamond/Contracts/interfaces/IERC20.sol": {
+			"keccak256": "0x50b8e87a8f745ae8e480a8caf2659c600d4a9ace353018dd1af17fe1cb6a3aaf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7cdf270b19860d38d16a6b49e569d13138974ea4493abff6b343dba1cba600d2",
+				"dweb:/ipfs/QmVuf6BvSBKNPpTqLndV9gzZYPgiJNvBLyJZkDvfrDRYTp"
+			]
+		},
+		"Solidity Development/SQNetDiamond/Contracts/libraries/LibERC20.sol": {
+			"keccak256": "0x6185fcb00ed2e1095c4283f6f2dea7b4f15f48be1f666404f24e37818c87aec2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6d797f1a48ea0165e2b72373d516813f79fc2f9b3d99c0ca0de1515041f0a982",
+				"dweb:/ipfs/QmWQHjRb63qQu8Gn4PHTHcBaXsn4iAm8hbxrA1e1Q9VDpq"
+			]
+		}
+	},
+	"version": 1
+}

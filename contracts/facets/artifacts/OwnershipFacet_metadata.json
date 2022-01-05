@@ -1,0 +1,134 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "previousOwner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "OwnershipTransferred",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "owner_",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_newOwner",
+						"type": "address"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"owner()": {
+					"returns": {
+						"owner_": "The address of the owner."
+					}
+				},
+				"transferOwnership(address)": {
+					"details": "Set _newOwner to address(0) to renounce any ownership.",
+					"params": {
+						"_newOwner": "The address of the new owner of the contract"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"owner()": {
+					"notice": "Get the address of the owner"
+				},
+				"transferOwnership(address)": {
+					"notice": "Set the address of the new owner of the contract"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity Development/SQNetDiamond/Contracts/facets/OwnershipFacet.sol": "OwnershipFacet"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity Development/SQNetDiamond/Contracts/facets/OwnershipFacet.sol": {
+			"keccak256": "0xebe60336df690ac081b6e1e7e81b909098c1aa85fe9d71c153fa7adfff502e06",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1bea88360c807d3e897cb6cbe66044675eae8a5372cf716963761fda4e195e8d",
+				"dweb:/ipfs/QmVxdxdPn8BL3vHxNeEbMSE8xLJ9TsjXgchQH6NAbQmJQU"
+			]
+		},
+		"Solidity Development/SQNetDiamond/Contracts/interfaces/IDiamondCut.sol": {
+			"keccak256": "0x7e616d2dfda1b5c03b2de7efbc0e2c6ac472dbba1a60adbd1ca71a183b413254",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f5924cddc69e143213c2799547cdfdc8458b3c35d4ba68012785b792b90c522d",
+				"dweb:/ipfs/QmfPSzx6JpzNodAvAqgjtJzBaKWEmRY86MMJ2Bo48Wz2Hz"
+			]
+		},
+		"Solidity Development/SQNetDiamond/Contracts/interfaces/IERC173.sol": {
+			"keccak256": "0x11d2a117e57d3a19b6529c3f0a09bea58ec7482b55a4e93d0161166fa0736343",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e3127b0386bd23eb05dfd5435953f72e607efdd62c3dca7b43b9a489b316e86c",
+				"dweb:/ipfs/Qmeukrvmt2tLbQPb1T6tsfDWutZ2ro1Z5ERpY51JjfHVzG"
+			]
+		},
+		"Solidity Development/SQNetDiamond/Contracts/libraries/LibDiamond.sol": {
+			"keccak256": "0x8db15cb3a0cff7a1c05b343eae514eff62e49db9c8f53cce0402e213a733112f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f52578301b2d15edd50b80e16898fb7238d816bda4b3a5cb203c0332638aa633",
+				"dweb:/ipfs/QmaUcRq8j9rQ1owdLEtugL8onT4dzxK5BkzgZWuQ3TF6e2"
+			]
+		}
+	},
+	"version": 1
+}
